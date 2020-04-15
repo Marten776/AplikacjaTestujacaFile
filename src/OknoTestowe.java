@@ -28,7 +28,6 @@ public class OknoTestowe extends javax.swing.JFrame {
     private void initComponents() {
 
         komponent2 = new komponenty.Komponent();
-        komponent1 = new komponenty.Komponent();
 
         javax.swing.GroupLayout komponent2Layout = new javax.swing.GroupLayout(komponent2);
         komponent2.setLayout(komponent2Layout);
@@ -42,19 +41,6 @@ public class OknoTestowe extends javax.swing.JFrame {
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        javax.swing.GroupLayout komponent1Layout = new javax.swing.GroupLayout(komponent1);
-        komponent1.setLayout(komponent1Layout);
-        komponent1Layout.setHorizontalGroup(
-            komponent1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 771, Short.MAX_VALUE)
-        );
-        komponent1Layout.setVerticalGroup(
-            komponent1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 164, Short.MAX_VALUE)
-        );
-
-        getContentPane().add(komponent1, java.awt.BorderLayout.CENTER);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -96,7 +82,6 @@ public class OknoTestowe extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private komponenty.Komponent komponent1;
     private komponenty.Komponent komponent2;
     // End of variables declaration//GEN-END:variables
 }
